@@ -3,6 +3,8 @@ module Web
     module Books
       class Create
         include Web::View
+
+        template 'books/new'
       end
     end
   end
